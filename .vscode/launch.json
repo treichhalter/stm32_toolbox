@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: stm32_toolbox.py with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/stm32_toolbox.py",
+            "console": "integratedTerminal",
+            "args": "-f ${workspaceFolder}\\AzureRTOS_H723ZG_blue.elf 0x08000000 -d 0x80FFFE0 0x8D641F8C 0xFFFF0E80",
+        }
+    ]
+}
